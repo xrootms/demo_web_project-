@@ -7,30 +7,30 @@ they reach production.
 
 ------------------------------------------------------------------------
 
-###  *What Makes Trivy Powerful*
+### 🛡️ *What Makes Trivy Powerful*
 
-###  🐳 Container Images --- *Detect OS-level and package-level vulnerabilities*
+###  🐳 Container Images - *Detect OS-level and package-level vulnerabilities*
 
     trivy image <your-image>:<tag>
 
-###  📂 File System / Source Code --- *Scan project folders for vulnerable dependencies*
+###  📂 File System / Source Code - *Scan project folders for vulnerable dependencies*
 
-    trivy fs /path/to/your/project
+    trivy fs /path/to/project
 
-###  🐋 Dockerfiles --- *Identify misconfigurations before images are built*
+###  🐋 Dockerfiles - *Identify misconfigurations before images are built*
 
     trivy config /path/to/Dockerfile
 
-###  ☸️ Kubernetes YAML / Helm Charts --- *Detect misconfigurations in manifests*
+###  ☸️ Kubernetes YAML / Helm Charts - *Detect misconfigurations in manifests*
 
     trivy config /path/to/k8s/manifests
     trivy config /path/to/helm/chart
 
-###  🧾 SBOM Generation --- *Create CycloneDX or SPDX SBOMs*
+###  🧾 SBOM Generation - *Create CycloneDX or SPDX SBOMs*
 
     trivy sbom -f cyclonedx -o sbom.json /path/to/project
 
-###  🔐 Secrets Scan --- *Detect leaked credentials*
+###  🔐 Secrets Scan - *Detect leaked credentials*
 
     trivy secret /path/to/project
 
