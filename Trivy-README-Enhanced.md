@@ -7,7 +7,7 @@ they reach production.
 
 ------------------------------------------------------------------------
 
-### 🛡️ *What Makes Trivy Powerful*
+### *Trivy Scan Types*
 
 ###  🐳 Container Images - *Detect OS-level and package-level vulnerabilities*
 
